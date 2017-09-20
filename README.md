@@ -29,6 +29,8 @@ Create a NodeJS module in the lib/ directory named `greet.js` that exports a sin
 * The `greet` function should return the input name, concatenated with "hello ": eg. ("hello susan")
 * The `greet` function should return `null` if the input is not a string
 
+Greet is a function that takes one argument (expecting a string) and returns a concatenated 'hello ' with the string e.g. greet('Sung') returns 'hello Sung'. If the argument is a non string value, the greet function will return null
+
 #### Arithmetic Module
 Create a NodeJS module in the lib/ directory named `arithmetic.js` that exports an object. This module should have `add` and `sub` methods that implament addition and subtraction.  
 * The `add` method should have an arity of two (define two paramiters)
@@ -37,6 +39,11 @@ Create a NodeJS module in the lib/ directory named `arithmetic.js` that exports 
 * The `sub` method should have an arity of two (define two paramiters)
   * If either parameter is a non-number the function should return null
   * Else return the second paramiter subtracted from the first paramiter
+
+Arithmetic is an object that contains two functions: 'add' and 'sub'.
+arithmetic.add is a function that takes two arguments (expecting two numbers) and returns a value that is an addition of the two
+arithmetic.sub is a function that takes two arguments (expecting two numbers) and returns a value that is the difference of the two.
+Both functions will return null if either argument is not a number, or if only one argument is provided.
 
 ## Testing  
 #### Greet Module Tests

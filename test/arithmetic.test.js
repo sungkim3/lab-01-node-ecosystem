@@ -11,7 +11,7 @@ describe('Arithmetic', function(){
 	})
 
 	it('substracts two numbers correctly', function(){
-		let result = arithmetic.subtract(1, 4);
+		let result = arithmetic.sub(1, 4);
 		expect(result).toEqual(-3);
 	})
 
