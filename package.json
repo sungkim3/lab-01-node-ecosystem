@@ -1,0 +1,27 @@
+{
+  "name": "lab-01-node-ecosystem",
+  "version": "1.0.0",
+  "description": "lab-01-node-ecosystem",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "'mocha'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sungkim3/lab-01-node-ecosystem.git"
+  },
+  "author": "Sung Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sungkim3/lab-01-node-ecosystem/issues"
+  },
+  "homepage": "https://github.com/sungkim3/lab-01-node-ecosystem#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "expect": "^21.1.0",
+    "mocha": "^3.5.3"
+  }
+}
